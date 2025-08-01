@@ -1,0 +1,106 @@
+*{
+    border: 1px dashed black;
+}
+body{
+    font-family: sans-serif;
+    background-color: #EDEDED;
+}
+.header{
+    display: flex;
+  justify-content: space-between;
+
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 0px;
+    padding: 0px;
+    align-items: end;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+ul a{
+    text-decoration: none;
+    color:  #2C2C2C ;
+  
+    
+
+}
+
+.title{
+    align-self: end;
+}
+    
+.title a{
+ font-size: 32px;
+ font-weight: bold;
+ color:#0047AB ;
+ text-decoration: none;
+ 
+}   
+button{
+    
+    padding: 0.3em 1.5em ;
+    font-size: 0.9em;
+    border-radius: 30px;
+    background-color: #0047AB;
+    color: #FFFFFF;
+  
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       margin-top: 200px;
+   
+}
+.heading{
+    color: #2C2C2C;
+     text-align:center;
+    font-size: 5em;
+    font-weight: bolder;
+  
+}
+.des{
+    color: grey;
+     text-align:center;
+    font-size: 1.6em;
+    width: 800px
+ 
+   
+}
+
+
+.list li{
+    list-style-type: none;
+
+}
+.list ul  button{
+   padding: 1em 3em ;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+.list2{
+    width: 400px;
+    display: flex;
+    box-sizing: border-box;
+     justify-content: space-between;
+   
+
+}
+
+.list2 ul{
+    display:flex;
+    font-size: 25px;
+     justify-content: space-between;
+   
+}
+.ist2 li{
+     justify-content: space-between;
+}
